@@ -23,10 +23,6 @@ function render_selection_bar {
             lines:add(out).
             set out to "".
             set char_count to 0.
-        } else {
-            if out:length > 0 {
-
-            }
         }
 
         if label:length + char_count + separator:length > terminal:width {
